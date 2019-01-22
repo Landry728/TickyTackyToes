@@ -1,0 +1,85 @@
+html {
+    background: linear-gradient(to bottom right,blue, lime);
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Coiny', cursive;
+    color: yellowgreen;
+    font-size: 100px;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+
+h2 {
+    font-family: 'Coiny', cursive;
+    color: yellowgreen;
+    font-size: 50px;
+}
+
+.box {
+    font-size: 90px;
+    color: black;
+  }
+    
+#container {
+    padding-top: 3em;
+    text-align: center;
+}
+  
+.row > div {
+    height: 100px;
+    width: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.row > div:hover {
+    cursor: pointer;
+  }
+
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+}
+
+.top {
+border-bottom: 1px, black solid;
+}
+
+.center {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+  }
+
+.left {
+    border-right: 1px black solid;
+}
+
+.right {
+    border-left: 1px black solid;
+}
+
+#rbutt {
+    font-family: 'Coiny', cursive;
+    font-size: 35px;
+    color: rgb(161, 207, 68);
+    background-color: rgb(125, 177, 22);
+    cursor: pointer;
+    border: none;
+    border-spacing: 30px;
+}
+
+#rbutt:hover {
+    color: blue;
+    border-color: currentColor;
+    background-color: black;
+  }
