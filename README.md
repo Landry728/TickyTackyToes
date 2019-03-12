@@ -1,2 +1,3 @@
 # TickyTackyToes
-My first time using Javascript. First project of iAmBham as well.
+First game I have ever made. Just a simple tic-tac-toe of X's vs O's.
+Uilization of just HTML, CSS, and JavaScript
